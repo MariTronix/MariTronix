@@ -1,16 +1,13 @@
-### Hi there 👋
+- usa : Platane/snk@v1.1.0 
+  com :
+     # nome de usuário do github para ler o gráfico de contribuição de (**required**) 
+    # usando action context var `github.repository_owner` ou usuário especificado 
+    github_user_name : ${{ github.repository_owner }}
 
-<!--
-**MariTronix/MariTronix** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    # caminho do arquivo gif gerado 
+    # Se deixado vazio, o arquivo gif não será gerado 
+    gif_out_path : dist/github-snake.gif
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    # caminho do arquivo svg gerado 
+    # Se deixado em branco, o arquivo svg não será gerado 
+    svg_out_path : dist/github-snake.svg
